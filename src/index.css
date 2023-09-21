@@ -1,0 +1,42 @@
+@import './fonts/add-font.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'noto_sans';
+}
+
+.primaryText{
+  /* font-family: 'Prompt', sans-serif; */
+  font-size: 17px;
+  color: #565656;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.secondaryText{
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.pText{
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+.menuTextbox{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (min-width:640px) {
+  .primaryText{
+      
+      font-size: 18px;
+  }
+}
